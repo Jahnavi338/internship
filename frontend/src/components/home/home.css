@@ -1,0 +1,67 @@
+/*.home{
+  width:100%;
+  height:100vh;
+}
+/*.home h1{
+  font-size:50px;
+}
+  
+
+.home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.home-btn{
+  background-color:rgb(64, 98, 129);
+  color: white !important;
+  border-radius:8px;
+  cursor:pointer;
+}*/
+
+.home{
+  width:100%;
+  height:100vh;
+  background-image: url("home_bg2.webp");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* White overlay with 50% opacity */
+  z-index: 0;
+}
+
+.home > div {
+  position: relative;
+  z-index: 1; /* Ensure content is above the overlay */
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.home-btn{
+  background-color:rgb(64, 98, 129);
+  color: white !important;
+  border-radius:8px;
+  cursor:pointer;
+}

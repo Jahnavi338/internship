@@ -1,0 +1,26 @@
+.user-png{
+  width: 50px;
+  height:50px;
+  margin-top:-8px;
+  border-radius: 80%;
+  object-fit: cover;
+}
+.navbar-brand{
+  color:#161616
+}
+.move-up{
+    position: relative;
+    top: -5px; 
+}
+.ms-1{
+  position: relative;
+    top: -7px;
+}
+.btn-nav{
+  background-color:rgb(64, 98, 129);
+  color: white !important;
+  border-radius:8px;
+}
+.navbar{
+  background-color:rgb(240, 181, 99)
+}
